@@ -6,17 +6,18 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>RSSB</title>
 </head>
-<body>
+    <body>
+    <!-- Social media navbar -->
     <div class="navbar flex bg-teal-50 gap-4">
-        <img class="flex max-h-3.5 ml-20 mt-5" src="Images/Nav-images/linkedin.svg" alt="LinkedIn">
+        <img class="flex max-h-3.5 ml-20 mt-5 hover:cursor-pointer" src="Images/Nav-images/linkedin.svg" alt="LinkedIn">
         <p class="flex max-h-3.5 mt-3 mb-1">|</p>
-        <img class="flex max-h-3 mt-5 mb-5" src="Images/Nav-images/twitter.svg" alt="Twitter">
+        <img class="flex max-h-3 mt-5 mb-5 hover:cursor-pointer" src="Images/Nav-images/twitter.svg" alt="Twitter">
         <p class="flex max-h-3.5 mt-3 mb-1">|</p>
-        <img class="flex max-h-3 mt-5" src="Images/Nav-images/facebook.svg" alt="Facebook">
+        <img class="flex max-h-3 mt-5 hover:cursor-pointer" src="Images/Nav-images/facebook.svg" alt="Facebook">
         <p class="flex max-h-3 mt-3 mb-1">|</p>
-        <img class="flex max-h-3 mt-5" src="Images/Nav-images/youtube.svg" alt="YouTube">
+        <img class="flex max-h-3 mt-5 hover:cursor-pointer" src="Images/Nav-images/youtube.svg" alt="YouTube">
         <p class="flex max-h-3 mt-3 mb-1">|</p>
-        <img class="flex max-h-3.5 mt-5" src="Images/Nav-images/instagram.svg" alt="instagram">
+        <img class="flex max-h-3.5 mt-5 hover:cursor-pointer" src="Images/Nav-images/instagram.svg" alt="instagram">
         <p class="flex max-h-3 mt-4 justify-self-end ml-170 text-sm text-indigo-900">Online Services</p>
         <p class="flex max-h-3 mt-3 mb-1">|</p>
         <p class="flex max-h-3 mt-4 ml-3 text-sm text-indigo-900">Publications</p>
@@ -26,25 +27,26 @@
         <img class="flex max-h-23 ml-20 mt-3 mb-5" src="Images/RSSB-Logo.png" alt="RSSB Logo">
     </div>
 
-      <div class="relative h-84 overflow-hidden w-full">
+    <div class="relative h-84 overflow-hidden w-full">
         <div class="absolute inset-0 bg-[url('Images/Background/couple.jpeg')] bg-cover bg-center">
           <div class="absolute inset-0 bg-gradient-to-r from-teal-50 via-teal-50/70 to-transparent"></div>
         </div>
 
+        <!-- Section of members, experience, branches, and data-driven -->
         <div class="absolute flex flex-col items-start justify-center h-full ml-10">
-            <div class="text-gray-800 text-2xl font-light">
-                <span class="text-orange-400 font-semibold">Member First</span>, Data-driven, Evidence-based, and High-performing organization.<br />
-                <span class="text-xl text-blue-900 font-semibold">Members First</span>
-            </div>
-            
-            <button class="w-48 mt-4 rounded-[10px] bg-blue-900 p-5 text-white text-center hover:cursor-pointer hover:bg-white hover:text-blue-700 hover:border font-semibold">
-                Learn More
-            </button>
+        <div class="text-gray-800 text-2xl font-light">
+            <span class="text-orange-400 font-semibold">Member First</span>, Data-driven, Evidence-based, and High-performing organization.<br />
+            <span class="text-xl text-blue-900 font-semibold">Members First</span>
+        </div>
+        
+        <button class="w-48 mt-4 rounded-[10px] bg-blue-900 p-5 text-white text-center hover:cursor-pointer hover:bg-white hover:text-blue-700 hover:border font-semibold">
+            Learn More
+        </button>
         </div>
 
       </div>
 
-      <div class="container bg-gray-50 flex justify-center mt-0 mb-20 max-w-full">
+      <div class="container bg-gray-50 flex justify-center -mt-20 mb-20 max-w-full">
         <div class="flex flex-col w-48 h-64 text-center border border-gray-200 transition transform hover:-translate-y-2">
             <img src="Images/Below-background/Members.png" alt="Members" class="h-24 w-auto mb-4">
             <p>
@@ -78,7 +80,8 @@
         </div>
     </div>
 
-    <div  class="mt-6 flex justify-center items-center mb-10">
+    <div class="flex gap-10 justify-center items-center mb-10">
+        <div class="h-1 w-15 bg-orange-400 ml-5"></div>
         <h2 class="text-blue-900 text-xl font-semibold">SOCIAL PROTECTION SCHEMES</h2>
     </div>
 
@@ -164,6 +167,8 @@
             </div>
          </div>
 
+
+            <!-- Testimonial from Regis, CEO -->
          <div class="flex justify-center items-center p-20 text-gray-700 border-l border-orange-500">
             <div class="h-125 w-1 bg-orange-400 mr-5"></div>
                 <div class="flex flex-col gap-10 text-2xl mr-90">
@@ -178,11 +183,76 @@
                         <div class="flex flex-col justify-center items-start">
                             <p class="flex justify-start items-start">Regis RUGEMANSHURO</p>
                             <p class="text-gray-500">CEO, RSSB</p>
-                        </div>
-                    
+                        </div>                    
                     </div>
             </div>
          </div>
+    
+    <div class="flex gap-10 justify-center items-center mb-10">
+        <div class="h-1 w-15 bg-orange-400"></div>
+        <h2 class="text-blue-900 text-xl font-semibold">NEWS & EVENTS</h2>
+    </div>
+
+    <div class="md:h-96 md:grid md:grid-cols-3 m-20 mb-30 gap-8">
+        <div class="flex flex-col gap-4 text-gray-700 border-b border-gray-200 p-5">
+            <img src="Images/Events/Sitting together.webp" alt="">
+            <p>7 months ago</p>
+            <h2 class="font-bold text-gray-700 text-1xl">RSSB Engages the Private Sector on Pension Reforms and ...</h2>
+            <p>Kigali: Thursday, November 28th, 2024 – The Rwanda Social Security Board (RSSB) engaged with the private sector to discuss upcoming pension reforms, h...</p>
+        </div>
+
+        <div class="flex flex-col gap-4 text-gray-700 border-b border-gray-200 p-5">
+            <img src="Images/Events/rssb-champions.webp" alt="">
+            <p>a year ago</p>
+            <h2 class="font-bold text-gray-700 text-1xl">RSSB Engages the Private Sector on Pension Reforms and ...</h2>
+            <p>Kigali: Thursday, November 28th, 2024 – The Rwanda Social Security Board (RSSB) engaged with the private sector to discuss upcoming pension reforms, h...</p>
+        </div>
+
+        <div class="flex flex-col gap-4 text-gray-700 border-b border-gray-200 p-5">
+            <img src="Images/Events/rssb-data-controller.webp" alt="">
+            <p>2 years ago</p>
+            <h2 class="font-bold text-gray-700 text-1xl">RSSB Engages the Private Sector on Pension Reforms and ...</h2>
+            <p>Kigali: Thursday, November 28th, 2024 – The Rwanda Social Security Board (RSSB) engaged with the private sector to discuss upcoming pension reforms, h...</p>
+        </div>        
+    </div>
+    
+    <div class="flex justify-center items-center">
+            <button class="border w-48 mt-4 rounded-[10px] bg-White-900 p-5 text-blue-700 border-blue-200 text-center hover:cursor-pointer hover:bg-blue-900 hover:text-white hover:border font-semibold">
+                View More
+            </button>
+        </div>
+        
+        <footer class="md:grid md:grid-cols-3 gap-20 p-10 text-gray-700 bg-gray-100 mt-5">
+            <div class="flex flex-col hover:cursor-pointer">
+                <h2 class="font-bold text-gray-700 text-1xl">GET IN TOUCH</h2>
+                <p>KN 3 Rd African Union Boulevard</p>
+                <p>Kiyovu, Nyarugenge</p>
+                <p>P.O Box 250/6655 Kigali-Rwanda</p>
+                <p>Tel: 4044 Toll free line</p>
+                <p>5006 EjoHeza</p>
+            </div>
+
+            <div class="flex flex-col">
+                <h2 class="font-bold text-gray-700 text-1xl">IMPORTANT LINKS</h2>
+                <a href="#">Tenders</a>
+                <a href="#">Galllery</a>
+                <a href="#">Announcements</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+
+            <div class="flex flex-col">
+                <h2 class="font-bold text-gray-700 text-1xl">SERVICES</h2>
+                <a href="#">Apply for Employee Number</a>
+                <a href="#">Check for your contributions</a>
+                <a href="#">Pay employee contributions</a>
+                <a href="#">Pension simulator</a>
+                <a href="#">RSSB clearance certificate</a>
+            </div>
+        </footer>
+    
+
+
+         
 
 </body>
 </html>
